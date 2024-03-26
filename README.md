@@ -1,1 +1,1 @@
-# GPT-Community-Scrapper
+# GPT-Community-Scraper
