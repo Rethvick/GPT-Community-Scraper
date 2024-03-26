@@ -35,7 +35,7 @@ def scrape_tag(tag_name):
     post_index = 1116
     while post_index < 17000:
         try:
-            time.sleep(2)  # General wait to mitigate rapid request issues
+            time.sleep(2) 
             replies_xpath = f"/html/body/section/div[1]/div[3]/div[2]/div[4]/div[2]/div/div/div/table/tbody/tr[{post_index}]/td[3]/button/span"
             try:
                 replies_element = WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, replies_xpath)))
